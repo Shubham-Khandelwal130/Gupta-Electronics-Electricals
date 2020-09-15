@@ -1300,11 +1300,9 @@ p {
   font-weight: 300;
   line-height: 1.4;
 }
-@media (min-width: 768px) {
-  .lead {
+.lead {
     font-size: 21px;
   }
-}
 small,
 .small {
   font-size: 85%;
@@ -1446,7 +1444,7 @@ dt {
 dd {
   margin-left: 0;
 }
-@media (min-width: 768px) {
+
   .dl-horizontal dt {
     float: left;
     width: 160px;
@@ -1459,7 +1457,7 @@ dd {
   .dl-horizontal dd {
     margin-left: 180px;
   }
-}
+
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
@@ -1582,11 +1580,11 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+
   .container {
     width: 750px;
   }
-}
+
 @media (min-width: 992px) {
   .container {
     width: 970px;
